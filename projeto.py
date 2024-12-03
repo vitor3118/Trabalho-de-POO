@@ -149,8 +149,3 @@ def menu_poupanca(conta):
                 print("Opção inválida.")
         except ValueError:
             print("Entrada inválida.")
-
-
-# Execução do Programa
-conta_criada = criar_conta()
-menu_principal(conta_criada)
